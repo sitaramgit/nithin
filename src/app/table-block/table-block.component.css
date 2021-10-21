@@ -1,12 +1,13 @@
-body {
-    font-family: 'lato', sans-serif;
-  }
+
   .container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .responsive-table {
+    padding-left: 0;
   }
   
   h2 {
@@ -17,7 +18,21 @@ body {
   h2 small {
     font-size: 0.5em;
   }
-  
+  .head-tbl{
+      color: white;
+      font-size: 13px;
+      font-weight: bolder;
+      padding-top: 30px;
+      margin-bottom: 5px;
+  }
+  .head-tabs{
+    padding-top: 25px;
+  }
+  .head-tabs li{
+    display: inline;
+    margin-right: 45px;
+    color: #f9f9f8;
+  }
 .rectify{
     margin-right: 20px;
     border-left: 1px solid white;

@@ -8,6 +8,7 @@ import { RadialChartComponent } from './radial-chart/radial-chart.component';
 import { CircleChartComponent } from './circle-chart/circle-chart.component';
 import { TableBlockComponent } from './table-block/table-block.component';
 import { BasicGraphComponent } from './basic-graph/basic-graph.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { BasicGraphComponent } from './basic-graph/basic-graph.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     NgApexchartsModule,
     AppRoutingModule
   ],

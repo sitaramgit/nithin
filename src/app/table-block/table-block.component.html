@@ -1,11 +1,28 @@
 <div class="container">
-    <h2>Responsive Tables Using LI <small>Triggers on 767px</small></h2>
-    <ul class="responsive-table">
-     
+
+    <ul class="head-tabs">
+        <li><input type="checkbox" name="" id="" style="opacity: 0.9;"></li>
+        <li>GENDER</li>
+        <li>AGE</li>
+        <li>LOCATION</li>
+        <li>MARITAL STATUS</li>
+    </ul>
+    <hr style="background: #7882e9;">
+    <div class="row head-tbl">
+        <div class="col col-1" >
+            <input type="checkbox" name="" id="" style="opacity: 0.9; margin-left: 22px;">
+        </div>
+        <div class="col col-4" >APPLICATION ID</div>
+        <div class="col col-5" >DICTECTED BIAS</div>
+    </div>
+    <ul class="responsive-table">     
       <li class="table-row" *ngFor="let data of tableData; index as i;" 
       [class.bgActive]="i % 2 == 0"
       [class.bgDeactive]="i % 2 == 1"
       >
+        <div class="col col-1" >
+            <input type="checkbox" name="" id="" style="opacity: 0.6;">
+        </div>
         <div class="col col-3" >{{data.applicationId}}</div>
         <div class="col col-2" >{{data.name}}</div>
         <div class="col col-1" > <i class="fa fa-trash"></i> </div>

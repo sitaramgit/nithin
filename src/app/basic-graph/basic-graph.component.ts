@@ -26,10 +26,10 @@ export class BasicGraphComponent implements OnInit {
 
   @ViewChild("chart") chart: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
-
+  public range = 260;
   constructor() {
     this.chartOptions = {
-      series: [14, 23, 21, 17, 15, 10],
+      series: [14, 23, 21, 17, 15],
       chart: {
         type: "polarArea"
       },
@@ -41,7 +41,7 @@ export class BasicGraphComponent implements OnInit {
       },
       responsive: [
         {
-          breakpoint: 480,
+          breakpoint: 380,
           options: {
             chart: {
               width: 100
