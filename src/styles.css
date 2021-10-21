@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+.search{
+    width: 5%;
+    float: left;
+    background: rgb(38 46 131);
+    height: 900px;
+  }
+  .menu {
+    width: 20%;
+    float: left;
+    background: rgb(48 56 155);
+      text-align: center;
+      height: 900px;
+      padding: 10px;
+  }
+  
+  .main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    background: rgb(64 76 199);
+    height: 900px;
+  }
+  
+  .search-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
+    margin-top: 40px;
+  }
+  
+  .js-search[type=text]{
+    position: relative;
+    width: 154px;
+      color: #f8f6fa;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      padding: 10px;
+      padding-inline-start: 32px;
+      background: #404cc7;
+    
+  }
+  
+  .search-icon{
+    position: relative;
+      left: -150px;
+      color: #f8f6fa;
+      font-size: 25px !important;
+  }
+  .explanation{
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    color: #f8f6fa;
+    background: #404cc7;
+    padding-top: 10px;
+    height: 300px;
+  
+  }
+  .circles{
+    width: 60px;
+    height: 60px;
+    background: #404cc7;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .block-div{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+.clock-icon{
+    font-size: 53px !important;
+    color: rgb(246, 246, 248);
+    margin-top: 54px;
+    margin-bottom: 39px;
+}
+.btn-section{
+    text-align: center;
+}
+.count-block{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    background: rgb(48 56 155);
+}
+.icons-block .fa{
+    color: #efe2ef;
+    font-size: 26px;
+    padding: 15px;
+    margin-top: 25px;
+}
+.table-block{
+    width: 100%;
+    border-radius: 20px;
+    background: rgb(48 56 155);
+}
+.small-graph{
+    padding: 2px;
+    margin: auto;
+}
+.big-graph{
+    width: 100%;
+    border-radius: 20px;
+    background: rgb(48 56 155);
+    margin-top: 33px;
+}
+
+.btn-section .btn{
+  margin-left: 10px;
+}

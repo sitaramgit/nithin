@@ -1,0 +1,76 @@
+<div class="block-div">
+  <div class="search">
+    <br><br><br><br><br><br>
+    <div class="circles"></div>
+    <br><br>
+    <div class="circles"></div>
+    <br><br>
+    <div class="circles"></div>
+    <br><br><br><br><br>
+    <i class="fa fa-search" style="color: white;
+      margin-left: 17px;
+      font-size: 24px;"></i>
+  </div>
+
+  <div class="menu">
+    <span class="fa fa-history clock-icon"></span>
+      <br><br>
+      <button class="btn btn-primary btn-block"> 6 Month <span class="fa fa-filter"></span> </button>
+      <br><br>
+      <button class="btn btn-default btn-block"> BIAS PARALELLEL </button>
+      <br><br>
+      <button class="btn btn-primary btn-block"> DATA IMBALANCE </button>
+
+      <div class="search-container">
+        <input placeholder='Search...' class='js-search' type="text">
+        <i class="fa fa-search search-icon"></i>
+      </div>
+      <div class="explanation">
+        <p style="font-size: 17px;">EXPLANATION</p>
+      </div>
+  </div>
+
+  <div class="main">
+    <div class="btn-section">
+      <button class="btn btn-primary">OVERVIEW</button>
+      <button class="btn btn-default">DATA INTERPRETATION</button>
+      <button class="btn btn-primary">CONFIRMATY ASSESSMENT</button>
+      <button class="btn btn-primary">DECISION INTELLIGENCE</button>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="count-block">
+            <app-basic-graph></app-basic-graph>
+            
+          </div>
+
+          <div class="icons-block">
+            <i class="fa fa-check-square-o"></i>
+            <i class="fa fa-desktop"></i>
+            <i class="fa fa-cab"></i>
+            <i class="fa fa-address-card-o"></i>
+            <i class="fa fa-folder-open-o"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-home"></i>
+          </div>
+          <div class="table-block">
+            <app-table-block></app-table-block>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="small-graph">
+            <app-circle-chart></app-circle-chart>
+          </div>
+          <div class="big-graph text-center">
+            <p class="basic-text">BIAS FACTORS</p>
+            <div id="chart">
+             <app-radial-chart></app-radial-chart>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Responsive Tables Using LI <small>Triggers on 767px</small></h2>
+    <ul class="responsive-table">
+     
+      <li class="table-row" *ngFor="let data of tableData; index as i;" 
+      [class.bgActive]="i % 2 == 0"
+      [class.bgDeactive]="i % 2 == 1"
+      >
+        <div class="col col-3" >{{data.applicationId}}</div>
+        <div class="col col-2" >{{data.name}}</div>
+        <div class="col col-1" > <i class="fa fa-trash"></i> </div>
+        <div class="col col-4" > <span class="rectify">RECTIFY</span> <i class="fa fa-ellipsis-v"></i></div>
+      </li>
+      
+    </ul>
+  </div>
+  <br><br>
